@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming device</title>
+    <style>
+         @media (max-width: 768px) {
+            .gallery img {
+                width: 45%;
+                /* スマホなどの小さい画面では幅を調整 */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .gallery img {
+                width: 100%;
+                /* スマホでは1列に表示 */
+            }
+        }
+        body {
+            background-color: #2e2930;
+            /* 黒色の背景 */
+            color: #ffffff;
+            /* 文字色を白にする */ 
+        }
+
+        .circle {
+            width: 300px;
+            height: 300px;
+            border-radius: 80%;
+            display: block;
+            margin: auto;
+            width: 50%;
+        }
+
+        .prototype1 {
+            width: 600px;
+            height: 300px;
+            border-radius: 20px;
+            display: block;
+            margin: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .prototype1:hover {
+            transform: scale(1.1);
+            /* 1.1倍に拡大 */
+        }
+
+
+
+        .prototype2 {
+            width: 600px;
+            height: 400px;
+            border-radius: 20px;
+            display: block;
+            margin: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .prototype2:hover {
+            transform: scale(1.1);
+            /* 1.1倍に拡大 */
+        }
+
+
+        .center-text {
+            text-align: center;
+
+        }
+
+        .center-text2 {
+            text-align: center;
+            color: white;
+            transition: color 0.3s ease;
+        }
+
+        .center-text2:hover {
+            color: blue;
+        }
+        .button {
+            padding: 10px 20px; /* パディングを設定 */
+            background-color: #4CAF50; /* 背景色を設定 */
+            color: white; /* テキストの色を設定 */
+            border: none; /* 枠線をなくす */
+            border-radius: 5px; /* 角を丸くする */
+            cursor: pointer; /* カーソルをポインターにする */
+            font-size: 16px; /* フォントサイズを設定 */
+        }
+    </style>
+</head>
+
+<body>
+    
+    <h1 class="center-text" id="section1">キーボード</h1>
+    <h1 class="center-text">REALFORCE</h1>
+    <p class="center-text">(ラピットトリガー対応)</p>
+    <a href="https://a.r10.to/h53LZk">
+        <img src="prototype1.jpg" alt="サンプル画像" class="prototype1">
+    </a>
+    <h2 class="center-text">価格:33,000円</h2>
+    <h1 class="center-text">Razer Huntsman V3 Pro</h1>
+    <p class="center-text">(ラピットトリガー対応)</p>
+    <a href="https://a.r10.to/h5OYBC">
+        <img src="prototype2.jpg" alt="サンプル画像" class="prototype2">
+    </a>
+    <h2 class="center-text">価格:39,439円</h2>
+
+    <a href="https://a.r10.to/h5OYBC">
+        <img src="prototype2.jpg" alt="サンプル画像" class="prototype2">
+    </a>
+    <form action="htmltest.html" method="post">
+        <input type="submit" value="戻る" class="button">
+    </form>
+</body>
+
+</html>

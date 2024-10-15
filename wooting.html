@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming device</title>
+    <style>
+         @media (max-width: 768px) {
+            .gallery img {
+                width: 45%;
+                /* スマホなどの小さい画面では幅を調整 */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .gallery img {
+                width: 100%;
+                /* スマホでは1列に表示 */
+            }
+        }
+        body {
+            background-color: #838383;
+            /* 黒色の背景 */
+            color: #ffffff;
+            /* 文字色を白にする */ 
+        }
+
+        .circle {
+            width: 300px;
+            height: 300px;
+            border-radius: 80%;
+            display: block;
+            margin: auto;
+            width: 50%;
+        }
+
+        .prototype1 {
+            width: 700px;
+            height: 300px;
+            border-radius: 20px;
+            display: block;
+            margin: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .prototype1:hover {
+            transform: scale(1.1);
+            /* 1.1倍に拡大 */
+        }
+
+
+
+        .prototype2 {
+            width: 600px;
+            height: 400px;
+            border-radius: 20px;
+            display: block;
+            margin: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .prototype2:hover {
+            transform: scale(1.1);
+            /* 1.1倍に拡大 */
+        }
+        .prototype3 {
+            width: 600px;
+            height: 500px;
+            border-radius: 20px;
+            display: block;
+            margin: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .prototype3:hover {
+            transform: scale(1.1);
+            /* 1.1倍に拡大 */
+        }
+
+        .center-text {
+            text-align: center;
+
+        }
+
+        .center-text2 {
+            text-align: center;
+            color: rgb(13, 3, 71);
+            transition: color 0.3s ease;
+        }
+
+        .center-text2:hover {
+            color: rgb(248, 172, 8);
+        }
+        .button {
+            padding: 10px 20px; /* パディングを設定 */
+            background-color: #4CAF50; /* 背景色を設定 */
+            color: white; /* テキストの色を設定 */
+            border: none; /* 枠線をなくす */
+            border-radius: 5px; /* 角を丸くする */
+            cursor: pointer; /* カーソルをポインターにする */
+            font-size: 16px; /* フォントサイズを設定 */
+        }
+        .background {
+            width: 100%;
+            height: 100vh;
+            /* 画面全体の高さ */
+            background-image: url('razer.jpg');
+            /* ここに画像のパスを指定 */
+            background-size: cover;
+            /* 画像を要素全体にカバー */
+            background-position: center;
+            /* 画像を中央に配置 */
+            background-repeat: no-repeat;
+            /* 画像を繰り返さない */
+        }
+    </style>
+</head>
+
+<body>
+    <form action="keyboard.html" method="post">
+    <h1 class="center-text2" id="section1">wooting<h1>
+    
+    <h1 class="center-text">Wooting</h1>
+    <h2 class="center-text">60HE ＋ ARM ANSI-US PBT Lekker Linear</h2>
+    <p class="center-text">(ラピットトリガー対応)</p>
+    <a href="https://amzn.to/408Dc6T">
+        <img src="wooting1.jpg" alt="サンプル画像" class="prototype2">
+    </a>
+    <h2 class="center-text">価格:49,800円</h2>
+<h1 class="center-text">2024年版 Wooting60</h1>
+<h2 class="center-text">60HE ＋ ARM ANSI-US PBT Lekker Linear</h2>
+<p class="center-text">(ラピットトリガー対応)</p>
+    <a href="https://amzn.to/489vw6z">
+        <img src="wooting1.jpg" alt="サンプル画像" class="prototype3">
+    </a>
+<h2 class="center-text">価格:47,310円</h2>
+        <h1 class="center-text">Wooting Two HE</h1>
+        <p class="center-text">(ラピットトリガー対応)</p>
+    <a href="https://amzn.to/3zQ0dB0">
+        <img src="wooting2.jpg" alt="サンプル画像" class="prototype1">
+    </a>
+    <h2 class="center-text">価格:44,000円</h2>
+   
+    <input type="submit" value="戻る" class="button">
+    </form>
+</body>
+
+</html>
